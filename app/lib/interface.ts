@@ -1,7 +1,7 @@
 export interface simpleBlogCard{
     title: string,
     smallDescription: string,
-    currentslug: string,
+    currentSlug: string,
     titleImage: any,
 }
 
