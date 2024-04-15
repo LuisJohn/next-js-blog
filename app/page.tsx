@@ -20,6 +20,9 @@ async function getData(){
 }
 
 
+export const revalidate = 30;
+
+
 export default async function Home() {
   const data: simpleBlogCard[] = await getData();
 
