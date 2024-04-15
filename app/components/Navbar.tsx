@@ -9,12 +9,12 @@ export default function Navbar(){
             LuisJohn<span className="text-primary">.Pro</span>
         </Link>
 
-        <ul className="flex gap-6">
+        {/* <ul className="flex gap-6">
             <li><Link href="/" className="font-bold text-sm">Projects</Link></li>
             <li><Link href="/" className="font-bold text-sm">Projects</Link></li>
             <li><Link href="/" className="font-bold text-sm">Projects</Link></li>
             <li><Link href="/" className="font-bold text-sm">Projects</Link></li>
-        </ul>
+        </ul> */}
         <ModeToggle/>
     </nav>
     );
